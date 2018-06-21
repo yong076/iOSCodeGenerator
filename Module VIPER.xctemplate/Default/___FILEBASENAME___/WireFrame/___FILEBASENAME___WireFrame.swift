@@ -9,13 +9,10 @@
 //
 
 import UIKit
-
+import SnapKit
+import Material
 
 class ___VARIABLE_productName:identifier___WireFrame: {
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
-
-	override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
+    
 }

@@ -40,3 +40,5 @@ protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 
     /* Presenter -> ViewController */
 }
+
+//MARK: WireFrame -

@@ -1,11 +1,11 @@
-# iOS-Viper-Generator
+# iOS-Code-Generator
 This is For BitBerry
 
 
 ## This Repo is Forked By Swift-VIPER-Module
 Swift-Viper-Module `https://github.com/Juanpe/Swift-VIPER-Module`
 
-## Why I Forked it?
+## Why I Forked?
  - I'm  Develop iOS WithOut StoryBoard. SNAPKIT!!
  - I'm Used Default Material UI `https://github.com/CosmicMind/Material`
  - I Used BaseViewController!!!

@@ -12,12 +12,41 @@ import UIKit
 import SnapKit
 import Material
 
-class ___VARIABLE_productName:identifier___ViewController: BaseViewController, ___VARIABLE_productName:identifier___ViewProtocol {
+class ___VARIABLE_productName:identifier___View: UIViewController, ___VARIABLE_productName:identifier___ViewProtocol {
 
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
 	override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.initViews()
+        self.prepareView()
+
+        presenter?.viewDidLoad()
     }
 
+        override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+
+}
+
+//MARK : View Initalize
+extension ___VARIABLE_productName:identifier___ {
+    fileprivate func prepareView () {
+        // PrepareView Defines the location of the view.
+        // and Make Constraints.. By SnapKit
+    }
+
+    fileprivate func initViews() {
+         // initViews is Define and initialize the view.
+    }
 }
