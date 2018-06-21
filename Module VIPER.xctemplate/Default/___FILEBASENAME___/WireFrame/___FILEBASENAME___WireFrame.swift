@@ -15,4 +15,8 @@ import Material
 class ___VARIABLE_productName:identifier___WireFrame: ___VARIABLE_productName:identifier___WireFrameProtocol{
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
 
+	class func create___VARIABLE_productName:identifier___Module() -> UIViewController {
+		//Todo 
+		return nil
+	}
 }

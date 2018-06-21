@@ -40,7 +40,7 @@ class ___VARIABLE_productName:identifier___View: UIViewController, ___VARIABLE_p
 }
 
 //MARK : View Initalize
-extension ___VARIABLE_productName:identifier___ {
+extension ___VARIABLE_productName:identifier___View {
     fileprivate func prepareView () {
         // PrepareView Defines the location of the view.
         // and Make Constraints.. By SnapKit

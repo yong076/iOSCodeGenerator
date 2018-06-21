@@ -42,14 +42,14 @@ protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 }
 
 //MARK: WireFrame -
-protocol ___VARIABLE_productName:identifier___WireFrame: class {
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
-    /* Presenter -> ViewController */
+protocol ___VARIABLE_productName:identifier___WireFrameProtocol: class {
+    static func create___VARIABLE_productName:identifier___Module() -> UIViewController
+    // PRESENTER -> WIREFRAME
 }
 
 
 //MARK: DataManager -
-protocol ___VARIABLE_productName:identifier___DataManager: class {
+protocol ___VARIABLE_productName:identifier___DataManagerProtocol: class {
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
-    /* Presenter -> ViewController */
+    // REMOTEDATAMANAGER -> INTERACTOR
 }
