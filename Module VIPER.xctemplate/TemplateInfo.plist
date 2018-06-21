@@ -44,7 +44,7 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
-		<!-- <dict>
+		<dict>
 			<key>Identifier</key>
 			<string>InputOutput</string>
 			<key>Name</key>
@@ -57,7 +57,7 @@
 			<string>false</string>
 			<key>NotPersisted</key>
 			<true/>
-		</dict> -->
+		</dict>
 	</array>
 	<key>Template Author</key>
 	<string>Daniel Kim @ RootOne</string>

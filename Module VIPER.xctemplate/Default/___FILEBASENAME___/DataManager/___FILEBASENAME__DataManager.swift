@@ -9,9 +9,9 @@
 //
 
 import UIKit
-import SwiftyJson
+import SwiftyJSON
 import Cache
 
-class ___VARIABLE_productName:identifier___DataManager: ___VARIABLE_productName:identifier___DataManagerInputProtocol {
+class ___VARIABLE_productName:identifier___DataManager: ___VARIABLE_productName:identifier___DataManagerProtocol {
     
 }

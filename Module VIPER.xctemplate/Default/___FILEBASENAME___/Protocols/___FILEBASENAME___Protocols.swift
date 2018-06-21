@@ -42,3 +42,14 @@ protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
 }
 
 //MARK: WireFrame -
+protocol ___VARIABLE_productName:identifier___WireFrame: class {
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
+    /* Presenter -> ViewController */
+}
+
+
+//MARK: DataManager -
+protocol ___VARIABLE_productName:identifier___DataManager: class {
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
+    /* Presenter -> ViewController */
+}

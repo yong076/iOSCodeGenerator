@@ -12,7 +12,7 @@ import UIKit
 import SnapKit
 import Material
 
-class ___VARIABLE_productName:identifier___WireFrame: {
+class ___VARIABLE_productName:identifier___WireFrame: ___VARIABLE_productName:identifier___WireFrameProtocol{
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
-    
+
 }
